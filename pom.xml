@@ -30,6 +30,7 @@
         <commonmark.version>0.11.0</commonmark.version>
     </properties>
 
+
     <scm>
         <connection>scm:git:https://github.com/protegeproject/webprotege.git</connection>
         <url>https://github.com/webprotege/webprotege.git</url>
@@ -291,6 +292,7 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.22.1</version>
                     <configuration>
+                        <skipTests>true</skipTests>
                         <argLine>
                             --illegal-access=permit
                         </argLine>
