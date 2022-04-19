@@ -1,7 +1,5 @@
 FROM registry1.dso.mil/ironbank/opensource/maven/maven-openjdk-11:3.8.5 AS build
 
-RUN dnf install -y git 
-
 COPY . /webprotege
 
 WORKDIR /webprotege
