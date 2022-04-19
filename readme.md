@@ -1,7 +1,6 @@
 WebProtégé
 ==========
 
-**Please note that this is soon to be the *legacy* codebase for WebProtégé.  This repository will be replaced with the [webprotege-backend](https://github.com/protegeproject/webprotege-backend) and [webprotege-gwt-ui](https://github.com/protegeproject/webprotege-gwt-ui) repositories, which cleanly separate out user-interface code from WebProtégé service code.**
 
 What is WebProtégé?
 -------------------
@@ -17,15 +16,6 @@ It provides the following features:
 - Support for editing OBO ontologies
 - Multiple file formats for upload and download of ontologies (supported formats: RDF/XML, Turtle, OWL/XML, OBO, and others)
 
-WebProtégé runs as a Web application. End users access it through their Web browsers.
-They do not need to download or install any software. We encourage end-users to use
-
-https://webprotege.stanford.edu
-
-If you have downloaded the webprotege war file from GitHub, and would like to deploy it on your own server,
-please follow the instructions at:
-
-https://github.com/protegeproject/webprotege/wiki/WebProtégé-4.0.0-beta-x-Installation
 
 Building
 --------
