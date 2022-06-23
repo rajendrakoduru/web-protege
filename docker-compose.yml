@@ -3,9 +3,9 @@ version: "3"
 services:
   wpmongo:
     container_name: webprotege-mongodb
-    #image: registry1.dso.mil/ironbank/opensource/mongodb/mongodb:5.0.2
+    image: registry1.dso.mil/ironbank/opensource/mongodb/mongodb:5.0.2
 
-    image: mongo:4.1-bionic
+    #image: mongo:4.1-bionic
     volumes: 
       - ./.protegedata/mongodb:/data/db
 
